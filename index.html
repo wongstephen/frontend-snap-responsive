@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="nav-container hide"> 
+    <nav> 
+      <div class="close"><img class='close-btn' src="./images/icon-close-menu.svg"></div>
+      <ul class="nav-list">
+        <li>Features<span><img class="menu-title-icon arrow arrow-feature" src="./images/icon-arrow-up.svg"></span></li>
+        <li class="nav-item hide features"><span class="menu-icon"><img src="./images/icon-todo.svg"></span><a href="#">Todo List</a></li>
+        <li class="nav-item hide features"><span class="menu-icon"><img src="./images/icon-calendar.svg"></span><a href="#">Calendar</a></li>
+        <li class="nav-item hide features"><span class="menu-icon"><img src="./images/icon-reminders.svg"></span><a href="#">Reminder</a></li>
+        <li class="nav-item hide features"><span class="menu-icon"><img src="./images/icon-planning.svg"></span><a href="#">Planning</a></li>
+
+        <li>Company<span class="menu-title-icon arrow arrow-company"><img src="./images/icon-arrow-up.svg"></li>
+        <li class="nav-item hide company"><a href="#">History</a></li>
+        <li class="nav-item hide company"><a href="#">Our Team</a></li>
+        <li class="nav-item hide company"><a href="#">Blog</a></li>
+
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul> 
+        <div class="login">
+          <p class="login-text">Login</p>
+          <button class="register-btn">Register</button> 
+        </div>
+    </nav>
+  </div>
+<header>
+  <img src="images\logo.svg" alt="logo" class="logo">
+    <div class="altMenu">
+      <a href="">Features</a>
+      <a href="">Company</a>
+      <a href="">Careers</a>
+      <a href="">About</a>
+    </div>
+    <div class="altLogin">
+      <p class="login-text">Login</p>
+      <button class="register-btn">Register</button> 
+    </div>
+  <img src="images\icon-menu.svg" alt="menu" class="menu">
+</header>
+<main>
+  <div class="hero-container">
+    <!-- <img src="images\image-hero-mobile.png" alt="hero image" class="hero-image"> -->
+  </div>
+  <h1>Make remote work</h1>
+  <p class="sub-title">
+    Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.  
+  </p>
+  <div class="learn-more-container">
+    <a href="#">
+      <button class='learn-more' type="submit">Learn more</button>
+    </a>
+  </div>
+</main>
+<footer>
+  <div class="clients">
+    <img src="./images/client-databiz.svg" alt="client-databiz">
+    <img src="./images/client-audiophile.svg" alt="client-audiophile">
+    <img src="./images/client-meet.svg" alt="client-meet">
+    <img src="./images/client-maker.svg" alt="client-maker">
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="http://www.wongstephenk.com">Stephen Wong</a>.
+  </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
